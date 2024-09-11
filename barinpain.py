@@ -8,12 +8,12 @@ C = '\033[96;1m'
 N = '\x1b[0m'
 import os
 try:
-import requests
+import requests 
 except ImportError:
 os.system("pip install requests")
 
 try:
-import concurrent.futures
+import requests
 except ImportError:
 os.system("pip install futures")
 
